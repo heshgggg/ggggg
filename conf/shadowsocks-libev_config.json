@@ -7,7 +7,7 @@ cat <<EOF
     "password":${PASSWORD_JSON},
     "timeout":300,
     "method":"${ENCRYPT}",
-    "mode": "tcp_and_udp",
+    "mode": "tcp_only",
     "nameserver": "1.1.1.1"
     "fast_open":false,
     "reuse_port":true,
